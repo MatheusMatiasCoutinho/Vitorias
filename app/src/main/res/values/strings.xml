@@ -1,3 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Vitorias</string>
+
+    <!-- Geral -->
+    <string name="app_name">Vitórias</string>
+    <string name="acao_voltar">Voltar</string>
+    <string name="acao_ajustes">Ajustes</string>
+    <string name="acao_sair_rapido">Sair do app</string>
+    <string name="acao_salvar_alteracoes">Salvar alterações</string>
+
+
+    <!-- Barra inferior -->
+    <string name="nav_denuncia">Denúncia</string>
+    <string name="nav_apoio">Apoio</string>
+    <string name="nav_emergencia">Emergência</string>
+
+
+    <!-- Tela: Abertura -->
+    <string name="abertura_protecao">PROTEÇÃO</string>
+    <string name="abertura_liberdade">LIBERDADE</string>
+    <string name="abertura_dignidade">DIGNIDADE</string>
+    <string name="abertura_entrar">VITÓRIAS</string>
+
+
+    <!-- Tela: Home -->
+    <string name="home_titulo">Você não está sozinha.</string>
+    <string name="home_descricao">Informação, direitos e apoio em um só lugar. Denúncia, apoio e emergência estão sempre a um toque, na barra abaixo.</string>
+    <string name="home_info_titulo">Informações e Direitos</string>
+    <string name="home_info_descricao">Tipos de violência, Lei Maria da Penha e Lei do Feminicídio</string>
+    <string name="home_eventos">Eventos</string>
+
+
+    <!-- Tela: Informação e Direitos -->
+    <string name="info_titulo">Informação e Direitos</string>
+    <string name="info_aba_tipos">Tipos de Violência</string>
+    <string name="info_aba_leis">Direitos e Leis</string>
+    <string name="info_aviso_tipos">Toque em cada item para entender melhor. Baseado no Art. 7º da Lei Maria da Penha (Lei nº 11.340/2006).</string>
+    <string name="info_aviso_leis">Este conteúdo é informativo e não substitui orientação jurídica individual. Procure a Defensoria Pública ou um Núcleo de Prática Jurídica para orientação sobre o seu caso.</string>
+
+    <string name="violencia_fisica">Física</string>
+    <string name="violencia_fisica_desc">Qualquer conduta que ofenda a integridade ou a saúde corporal da mulher.</string>
+    <string name="violencia_psicologica">Psicológica</string>
+    <string name="violencia_psicologica_desc">Conduta que cause dano emocional, diminua a autoestima ou busque controlar ações, decisões e crenças da mulher por ameaça, humilhação, manipulação, isolamento ou vigilância.</string>
+    <string name="violencia_patrimonial">Patrimonial</string>
+    <string name="violencia_patrimonial_desc">Conduta que retenha, subtraia ou destrua objetos, documentos, bens, valores ou recursos econômicos da mulher.</string>
+    <string name="violencia_sexual">Sexual</string>
+    <string name="violencia_sexual_desc">Conduta que force a mulher a presenciar, manter ou participar de relação sexual não desejada, por intimidação, ameaça, coação ou uso da força.</string>
+    <string name="violencia_moral">Moral</string>
+    <string name="violencia_moral_desc">Conduta que configure calúnia, difamação ou injúria contra a mulher.</string>
+
+
+    <!-- Tela: Denúncia -->
+    <string name="denuncia_titulo">Denúncia</string>
+    <string name="denuncia_aba_primeira">Primeira pessoa</string>
+    <string name="denuncia_aba_terceira">Terceira pessoa</string>
+    <string name="denuncia_aviso_primeira">Este espaço ajuda você a organizar seu relato com calma. Ele fica salvo apenas neste aparelho e não substitui um Boletim de Ocorrência oficial.</string>
+    <string name="denuncia_aviso_terceira">Você está relatando em nome de outra pessoa. Isso pode ajudá-la a buscar apoio.</string>
+    <string name="denuncia_nome">Seu nome (opcional)</string>
+    <string name="denuncia_nome_hint">Como podemos te chamar</string>
+    <string name="denuncia_nome_terceira_hint">Nome de quem você quer ajudar</string>
+    <string name="denuncia_relacao">Sua relação com ela</string>
+    <string name="denuncia_relacao_hint">Ex: vizinha, amiga, familiar</string>
+    <string name="denuncia_ocorrido">O que aconteceu</string>
+    <string name="denuncia_ocorrido_hint">Descreva com as palavras que fizerem sentido para você.</string>
+    <string name="denuncia_presenciou">O que você presenciou</string>
+    <string name="denuncia_presenciou_hint">Descreva o que você viu ou ouviu.</string>
+    <string name="denuncia_quando">Quando aconteceu</string>
+    <string name="denuncia_quando_hint">Ex: 12/08/2026 ou “semana passada”</string>
+    <string name="denuncia_salvar">Salvar relato</string>
+
+
+    <!-- Tela: Apoio -->
+    <string name="apoio_titulo">Apoio</string>
+    <string name="apoio_aviso">Localizações ilustrativas. No app final, mapeadas por geolocalização real.</string>
+    <string name="apoio_ver_rota">Ver rota</string>
+
+
+    <!-- Tela: Emergência -->
+    <string name="emergencia_titulo">Emergência</string>
+    <string name="emergencia_aviso">Toque para simular a ligação. Em situação real, use o discador do seu telefone.</string>
+    <string name="emergencia_180_titulo">Central de Atendimento à Mulher</string>
+    <string name="emergencia_180_desc">Orientação, denúncia e encaminhamento, 24h</string>
+    <string name="emergencia_190_titulo">Polícia Militar</string>
+    <string name="emergencia_190_desc">Risco imediato à sua integridade física</string>
+    <string name="emergencia_100_titulo">Disque Direitos Humanos</string>
+    <string name="emergencia_100_desc">Denúncias de violações de direitos humanos</string>
+    <string name="emergencia_ligar">Ligar</string>
+
+
+    <!-- Tela: Ajustes -->
+    <string name="ajustes_titulo">Ajustes</string>
+    <string name="ajustes_limpar_historico">Limpar histórico de pesquisa</string>
+    <string name="ajustes_voltar_home">Voltar para home</string>
+    <string name="ajustes_acesso_restrito">Acesso restrito</string>
+    <string name="ajustes_sobre">Sobre o app</string>
+
+
+    <!-- Tela: Acesso restrito (login do admin) -->
+    <string name="login_titulo">Acesso restrito</string>
+    <string name="login_cabecalho">Entrar como admin</string>
+    <string name="login_descricao">Gerencie vídeos, leis e frases do app</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_email_hint">Seu e-mail de login</string>
+    <string name="login_senha">Senha</string>
+    <string name="login_senha_hint">Sua senha</string>
+    <string name="login_entrar">Entrar</string>
+    <string name="erro_email_invalido">Informe um e-mail válido</string>
+    <string name="erro_senha_curta">A senha deve ter ao menos 6 caracteres</string>
+
+
+    <!-- Tela: Administração -->
+    <string name="admin_titulo">Administração</string>
+    <string name="admin_sair">Sair</string>
+    <string name="admin_aba_videos">Vídeos</string>
+    <string name="admin_aba_leis">Leis</string>
+    <string name="admin_publicadas">Publicadas · %1$d</string>
+    <string name="admin_ocultas">Ocultas · %1$d</string>
+    <string name="admin_nova_lei">+ Nova lei</string>
+    <string name="admin_novo_video">+ Novo vídeo</string>
+
+
+    <!-- Tela: Editar lei -->
+    <string name="editar_lei_titulo">Editar lei</string>
+    <string name="editar_lei_nome">Nome popular *</string>
+    <string name="editar_lei_numero">Número *</string>
+    <string name="editar_lei_tipos">Tipos de violência</string>
+    <string name="editar_lei_resumo">Resumo para usuária *</string>
+    <string name="editar_lei_link">Link do texto oficial</string>
+    <string name="editar_lei_publicada">Publicada no app</string>
+    <string name="editar_lei_excluir">Excluir lei</string>
+
+
+    <!-- Tela: Editar vídeo -->
+    <string name="editar_video_titulo">Editar vídeo</string>
+    <string name="editar_video_preview">Pré-visualização do link</string>
+    <string name="editar_video_descricao">Descrição do vídeo *</string>
+    <string name="editar_video_link">Link (YouTube) *</string>
+    <string name="editar_video_campus">Campus</string>
+    <string name="editar_video_exibir_home">Exibir na Home</string>
+    <string name="editar_video_excluir">Excluir vídeo</string>
+
 </resources>

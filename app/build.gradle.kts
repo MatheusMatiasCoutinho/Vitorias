@@ -6,6 +6,10 @@ android {
     namespace = "br.edu.uniceplac.vitorias"
     compileSdk {
         version = release(37)
+
+        buildFeatures {
+            viewBinding = true
+        }
     }
 
     defaultConfig {

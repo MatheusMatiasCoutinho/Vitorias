@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="vitorias_fundo">#F7F1EC</color>
+    <color name="vitorias_roxo">#40295F</color>
+    <color name="vitorias_malva_escuro">#6E4A66</color>
+    <color name="vitorias_malva_claro">#B98A9C</color>
 </resources>

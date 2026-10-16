@@ -6,4 +6,7 @@
     <color name="vitorias_roxo">#40295F</color>
     <color name="vitorias_malva_escuro">#6E4A66</color>
     <color name="vitorias_malva_claro">#B98A9C</color>
+    <color name="vitorias_card_icone">#EFE5E8</color>
+    <color name="vitorias_nav_inativo">#8E7F95</color>
+    <color name="vitorias_divisoria">#D9CCD2</color>
 </resources>

@@ -28,6 +28,9 @@
     <string name="home_info_titulo">Informações e Direitos</string>
     <string name="home_info_descricao">Tipos de violência, Lei Maria da Penha e Lei do Feminicídio</string>
     <string name="home_eventos">Eventos</string>
+    <string name="home_titulo_destaque">sozinha</string>
+    <string name="home_assistir_video">Assistir: %1$s</string>
+    <string name="home_erro_abrir_video">Não foi possível abrir o vídeo</string>
 
 
     <!-- Tela: Informação e Direitos -->
@@ -85,6 +88,7 @@
     <string name="emergencia_100_titulo">Disque Direitos Humanos</string>
     <string name="emergencia_100_desc">Denúncias de violações de direitos humanos</string>
     <string name="emergencia_ligar">Ligar</string>
+    <string name="nav_em_breve">Em breve</string>
 
 
     <!-- Tela: Ajustes -->

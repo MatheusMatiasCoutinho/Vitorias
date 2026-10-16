@@ -305,7 +305,7 @@ gitGraph
         <img src="https://github.com/MatheusMatiasCoutinho.png" width="90" alt="Matheus Matias Coutinho"/><br/>
         <sub><b>Matheus Matias Coutinho</b></sub>
       </a><br/>
-      <sub>Desenvolvedor Android<br/>UI/UX Designer · CI/CD</sub>
+      <sub><b>Tech Lead</b><br/>Desenvolvedor Android · UI/UX</sub>
     </td>
     <!-- Para adicionar um integrante: copie o bloco <td> acima e troque o usuário do GitHub -->
   </tr>

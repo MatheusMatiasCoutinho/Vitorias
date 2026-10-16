@@ -4,6 +4,7 @@
 
 <br/>
 
+[![Android CI](https://github.com/MatheusMatiasCoutinho/Vitorias/actions/workflows/android.yml/badge.svg)](https://github.com/MatheusMatiasCoutinho/Vitorias/actions/workflows/android.yml)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/Android_7.0+-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Material 3](https://img.shields.io/badge/Material_3-40295F?style=for-the-badge&logo=materialdesign&logoColor=white)
@@ -230,6 +231,7 @@ Tons de roxo e malva, associados ao **Agosto Lilás** e à luta pelo fim da viol
 | Componentes | ViewPager2 (carrossel) · Coil (imagens remotas) |
 | Build | Gradle Kotlin DSL · minSdk 24 |
 | Backend | API REST + banco SQL *(em desenvolvimento)* |
+| CI/CD | GitHub Actions — build, testes e APK a cada push |
 | Design | Figma |
 
 <br/>
@@ -245,6 +247,9 @@ git clone https://github.com/MatheusMatiasCoutinho/Vitorias.git
 1. No Android Studio: **File → Open** e selecione a pasta clonada.
 2. Aguarde o **Gradle Sync**.
 3. Escolha um dispositivo e clique em **Run ▶**.
+
+> [!TIP]
+> Quer só instalar no celular? Cada build da `main` gera um APK: abra a aba **[Actions](https://github.com/MatheusMatiasCoutinho/Vitorias/actions)**, entre no último build verde e baixe **vitorias-debug-apk** em *Artifacts*.
 
 <br/>
 
@@ -266,6 +271,7 @@ gitGraph
 1. Crie uma branch a partir da `main`: `feature/<nome-da-tela>`
 2. Faça commits pequenos, seguindo o padrão abaixo
 3. Abra um **Pull Request** para a `main` — nada entra direto nela
+4. Aguarde o **GitHub Actions** compilar e testar: PR com build vermelho não entra
 
 | Prefixo | Uso | Exemplo |
 |---|---|---|
@@ -299,7 +305,7 @@ gitGraph
         <img src="https://github.com/MatheusMatiasCoutinho.png" width="90" alt="Matheus Matias Coutinho"/><br/>
         <sub><b>Matheus Matias Coutinho</b></sub>
       </a><br/>
-      <sub>Android · UI/UX</sub>
+      <sub>Desenvolvedor Android<br/>UI/UX Designer · CI/CD</sub>
     </td>
     <!-- Para adicionar um integrante: copie o bloco <td> acima e troque o usuário do GitHub -->
   </tr>

@@ -36,6 +36,11 @@ android {
 }
 
 dependencies {
+    // Carrossel de vídeos
+    implementation("androidx.viewpager2:viewpager2:1.1.0")
+    // Carrega imagens da internet (miniaturas do YouTube)
+    implementation("io.coil-kt:coil:2.7.0")
+
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
